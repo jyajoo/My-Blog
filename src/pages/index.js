@@ -5,8 +5,8 @@ const IndexPage = () => {
   return (
     <main>
       <title>Home</title>
-      <Layout>
-        <h1>Home Page</h1>
+      <Layout pageTitle="Home Page">
+          <p>Home page 내용</p>
       </Layout>
     </main>
   );

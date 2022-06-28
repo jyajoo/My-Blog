@@ -5,8 +5,8 @@ const AboutPage = () => {
     return (
     <main>
         <title>About Page</title>
-        <Layout>
-            <h1>About Page</h1>
+        <Layout pageTitle="About Page">
+            <p>About page 내용</p>
         </Layout>
     </main>
     );

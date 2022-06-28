@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
     title: `My Blog`,
-    siteUrl: `https://www.yourdomain.tld`,
+    description: "Development Blog",
   },
   plugins: [
     "gatsby-plugin-image",

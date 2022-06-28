@@ -3,11 +3,11 @@ import React from "react";
 
 function Head() {
     return (
-        <header style = {{display : "flex"}}>
-            <Link to="/">Logo</Link>
-            <div style = {{flexGrow:1}}></div>
-            <Link to = "/test" style = {{padding : 10}}>Test</Link>
-            <Link to = "/test-space" style = {{padding : 10}}>Test Space</Link>
+        <header style = {{display : "flex", gap: 10}}>
+            <Link to= "/">Home</Link>
+            <Link to = "/about">About</Link>
+            <Link to = "/test">Test</Link>
+            <Link to = "/test-space">Test Space</Link>
         </header>
     );
 }

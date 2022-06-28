@@ -1,14 +1,14 @@
 import React from "react";
 import Head from "../components/Head";
 
-function TestPage() {
+const AboutPage = () => {
     return (
     <main>
-        <title>Test</title>
+        <title>About Page</title>
         <Head />
-        <h1>Test Page</h1>
+        <h1>About Page</h1>
     </main>
     );
-}
+};
 
-export default TestPage;
+export default AboutPage;
